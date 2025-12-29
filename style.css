@@ -1,0 +1,77 @@
+#container{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+button{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(200, 100%, 40%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(200, 100%, 60%);
+}
+button:active{
+    background-color: hsl(200, 100%, 70%);
+}
+
+input{
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+#diceresult{
+    margin: 25px;
+}
+#diceimages img{
+    width: 150px;
+    margin: 5px;
+}
+
+@media (max-width: 650px){
+    #container{
+        font-size: 1.3rem;
+    }
+
+    input{
+        width: 100%;
+        max-width: 200px;
+        font-size: 1.5rem;
+    }
+
+    button{
+        font-size: 1.2rem;
+        padding: 8px 12px;
+    }
+
+    #diceimages img{
+        width: 80px;
+    }
+}
+
+
+@media (min-width: 651px) and (max-width: 1024px){
+    #container{
+        font-size: 1.6rem;
+    }
+
+    input{
+        width: 180px;
+        font-size: 1.7rem;
+    }
+
+    button{
+        font-size: 1.3rem;
+    }
+
+    #diceimages img{
+        width: 110px;
+    }
+}
